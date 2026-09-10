@@ -4,7 +4,7 @@
 # David Zeuthen <davidz@redhat.com>, 2005.
 # Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006, 07.
 # Mads Bille Lundby <lundbymads@gmail.com>, 2009.
-# Alan Mortensen <alanmortensen.am@gmail.com>, 2017-20, 22, 24-26.
+# Alan Mortensen <over.tackiness223@passinbox.com>, 2017-20, 22, 24-26.
 # scootergrisen, 2020.
 #
 msgid ""
@@ -13,9 +13,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-openvpn/"
 "issues\n"
 "POT-Creation-Date: 2025-12-12 11:59+0000\n"
-"PO-Revision-Date: 2026-03-30 19:43+0200\n"
+"PO-Revision-Date: 2026-09-04 18:41+0200\n"
 "Last-Translator: Alan Mortensen <over.tackiness223@passinbox.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language-Team: Danish <danskgruppen@groups.io>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,6 +30,31 @@ msgstr "OpenVPN-klient"
 #: appdata/network-manager-openvpn.metainfo.xml.in:11
 msgid "Client for OpenVPN virtual private networks"
 msgstr "Klient til virtuelle private OpenVPN-netværk"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:14
+msgid "network"
+msgstr "netværk"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:15
+msgid "manager"
+msgstr "håndtering"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:16
+msgid "NetworkManager"
+msgstr "Netværkshåndtering"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:17
+msgid "connection"
+msgstr "forbindelse"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:18
+msgid "VPN"
+msgstr "VPN"
+
+#: appdata/network-manager-openvpn.metainfo.xml.in:19
+#: properties/nm-openvpn-editor-plugin.c:38
+msgid "OpenVPN"
+msgstr "OpenVPN"
 
 #: appdata/network-manager-openvpn.metainfo.xml.in:23
 msgid "Support for configuring OpenVPN virtual private network connections."
@@ -1414,10 +1439,6 @@ msgstr "Adgangskode med certifikater (TLS)"
 #: properties/nm-openvpn-editor.c:2938
 msgid "could not load UI widget"
 msgstr "kunne ikke indlæse UI-kontrol"
-
-#: properties/nm-openvpn-editor-plugin.c:38
-msgid "OpenVPN"
-msgstr "OpenVPN"
 
 #: properties/nm-openvpn-editor-plugin.c:39
 msgid "Compatible with the OpenVPN server."
